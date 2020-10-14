@@ -15,3 +15,31 @@ body{
     margin: 2rem 25rem;
     display: flex;
 }
+
+@media (min-width: 315px) and (max-width: 1200px){
+  body, html{
+    overflow-x: hidden;
+  }
+  .col-md-4{
+    margin: 0 12rem;
+    padding-bottom: 2rem;
+  }
+  .card{
+    width: 150%;
+  }
+  .search-form{
+    margin: 2rem 2rem;
+  }
+}
+@media (min-width: 315px) and (max-width: 767px){
+  body, html{
+    overflow-x: hidden;
+  }
+  .col-md-4{
+    margin: 0;
+    padding-bottom: 2rem;
+  }
+  .search-form{
+    margin: 2rem 2rem;
+  }
+}
