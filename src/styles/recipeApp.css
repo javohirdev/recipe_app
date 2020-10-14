@@ -39,6 +39,9 @@ body{
     margin: 0;
     padding-bottom: 2rem;
   }
+   .card{
+    width: 100%;
+  }
   .search-form{
     margin: 2rem 2rem;
   }
